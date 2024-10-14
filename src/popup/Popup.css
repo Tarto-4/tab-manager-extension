@@ -1,0 +1,26 @@
+.popup-container {
+    font-family: Arial, sans-serif;
+    width: 350px;
+    padding: 10px;
+  }
+  
+  .tab-item, .session-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  .tab-list, .session-list {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
