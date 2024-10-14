@@ -5,8 +5,7 @@
   "description": "Manage your open tabs efficiently.",
   "permissions": ["tabs", "storage"],
   "background": {
-    "service_worker": "src/background.js",
-    "type": "module"
+    "service_worker": "background.js"
   },
   "action": {
     "default_popup": "src/popup/Popup.html",
